@@ -3,18 +3,19 @@
 
     <script>
       class Shape{ 
-        constructor(color){
+        drawShape(color){
           this.color = color;
+          this.color = "black";
         }
-        msg(){
+      calculateArea(){
           document.write("The color of the shape is " + this.color + "</br>");
         }
       }
       class Circle extends Shape{ 
-        constructor(color){
+         drawShape(color){
           super(color); 
         }
-        msg(){
+          calculateArea(){
           document.write("The color of the circle is " + this.color + "</br>");
         }
       }
