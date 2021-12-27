@@ -1,18 +1,14 @@
-<html>
-  <body>
+// declare class
+class Shape {
+     constructor() {
+          this.color = "green";
+     }
+     drawShape() {
 
-    <script>
-      class Shape{ 
-        constructor(){ 
-          document.write("Class <i>Shape</i> created.")
+     }
+     calculateArea() {
 
-          this.name = "circle";
-          this.color = "black";
-          this.radius = 5; 
-        }
-      }
-      var shape1 = new Shape(); 
-    </script>
-
-  </body>
-</html>
+     }
+}
+// export class using module.exports
+module.exports = Shape;
