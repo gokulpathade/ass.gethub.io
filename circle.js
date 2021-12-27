@@ -20,7 +20,7 @@
         }
       }
       var c1 = new Circle("Blue"); 
-      c1.msg(); 
+      c1. calculateArea(); 
     </script>
 
   </body>
